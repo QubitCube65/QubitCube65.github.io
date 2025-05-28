@@ -1,1 +1,1 @@
-# Amelie Kannewitz
+# Medical Informatics Student
