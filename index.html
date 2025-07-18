@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Studiumsübersicht</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 2em;
+      background: #f9f9f9;
+    }
+    canvas {
+      max-width: 600px;
+      margin: auto;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+  </style>
+</head>
+<body>
+  <h1>Medical Informatics B.Sc. - Overview of my studies</h1>
+  <canvas id="studyChart"></canvas>
+
+  <script>
+    fetch('data.json')
+      .then(res => res.json())
+      .then(data => {
+        const labels = Object.keys(data);
+        const colors = labels.map(bereich => data[bereich].farbe);
+        const ectsProBereich = labels.map(bereich =>
+          data[bereich].kurse.reduce((sum, modul) => sum + modul.ects, 0)
+        );
+
+        new Chart(document.getElementById('studyChart'), {
+          type: 'doughnut', //radar
+          data: {
+            labels: labels,
+            datasets: [{
+              data: ectsProBereich,
+              backgroundColor: colors
+            }]
+          },
+          options: {
+            plugins: {
+              tooltip: {
+                callbacks: {
+                  title: ctx => ctx[0].label,
+                  afterLabel: ctx => {
+                    const bereich = ctx.label;
+                    return data[bereich].kurse.map(k => `• ${k.name} (${k.ects} ECTS)`);
+                  }
+                }
+              },
+              legend: { position: 'bottom' },
+              title: {
+                display: true,
+                text: 'Study fields by ECTS'
+              }
+            }
+          }
+        });
+      });
+  </script>
+</body>
+</html>

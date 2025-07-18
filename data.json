@@ -1,0 +1,157 @@
+{
+  "Mathematics": {
+    "farbe": "#3498db",
+    "kurse": [
+      {
+        "name": "Analysis I",
+        "ects": 9
+      },
+      {
+        "name": "Lineare Algebra I",
+        "ects": 9
+      },
+      {
+        "name": "Biostatistik",
+        "ects": 3
+      }
+    ]
+  },
+  "Informatics": {
+    "farbe": "#9b59b6",
+    "kurse": [
+      {
+        "name": "Praktische Informatik I",
+        "ects": 9
+      },
+      {
+        "name": "Praktische Informatik II",
+        "ects": 9
+      },
+      {
+        "name": "Praktische Informatik III",
+        "ects": 6
+      },
+      {
+        "name": "Einführung in die Internettechnologien",
+        "ects": 6
+      },
+      {
+        "name": "User Experience",
+        "ects": 6
+      },
+      {
+        "name": "Realtime und On Demand Medien im Internet",
+        "ects": 6
+      },
+      {
+        "name": "Teamprojekt",
+        "ects": 9
+      }
+    ]
+  },
+  "Medicine/Biology": {
+    "farbe": "#e67e22",
+    "kurse": [
+      {
+        "name": "Humanbiologie I",
+        "ects": 3
+      },
+      {
+        "name": "Humanbiologie II",
+        "ects": 6
+      },
+      {
+        "name": "Humanbiologie III",
+        "ects": 6
+      },
+      {
+        "name": "Humanbiologie IV",
+        "ects": 6
+      },
+      {
+        "name": "Medizinische Terminologie",
+        "ects": 3
+      },
+      {
+        "name": "Einführung in die klinische Neurowissenschaft I + II",
+        "ects": 6
+      }
+    ]
+  },
+  "Bioinformatics": {
+    "farbe": "#2ecc71",
+    "kurse": [
+      {
+        "name": "Grundlagen Bioinformatik",
+        "ects": 9
+      },
+      {
+        "name": "Einführung in die Bioinformatik",
+        "ects": 3
+      },
+      {
+        "name": "WP Bioinformatik",
+        "ects": 3
+      }
+    ]
+  },
+  "Physics": {
+    "farbe": "#f1c40f",
+    "kurse": [
+      {
+        "name": "Experimentalphysik I",
+        "ects": 6
+      },
+      {
+        "name": "Experimentalphysik II",
+        "ects": 6
+      }
+    ]
+  },
+  "Medicalinformatics": {
+    "farbe": "#28a745",  
+    "kurse": [
+      {
+        "name": "Grundlagen der Medizininformatik",
+        "ects": 6
+      },
+      {
+        "name": "Medizinische Visualisierung",
+        "ects": 6
+      },
+      {
+        "name": "Telemedizin",
+        "ects": 6
+      },
+      {
+        "name": "Proseminar Medizininformatik",
+        "ects": 3
+      },
+      {
+        "name": "WP Medizininformatik",
+        "ects": 6
+      },
+      {
+        "name": "Bachelorarbeit",
+        "ects": 15
+      }
+    ]
+  },
+  "Cross-Disciplinary Skills": {
+    "farbe": "#95a5a6",
+    "kurse": [
+      {
+        "name": "Geschichte und Ethik der Medizin",
+        "ects": 3
+      },
+      {
+        "name": "Karriereseminar für Informatiker",
+        "ects": 3
+      },
+      {
+        "name": "Planung des Alumni-Tages Informatik",
+        "ects": 3
+      }
+    ]
+  }
+}
