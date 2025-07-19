@@ -132,8 +132,12 @@
         "ects": 6
       },
       {
-        "name": "Einführung in die klinische Neurowissenschaft I + II",
-        "ects": 6
+        "name": "Einführung in die klinische Neurowissenschaft I",
+        "ects": 3
+      },
+      {
+        "name": "Einführung in die klinische Neurowissenschaft II",
+        "ects": 3
       }
     ]
   },
