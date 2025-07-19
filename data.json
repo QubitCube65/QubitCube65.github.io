@@ -1,6 +1,6 @@
 {
   "Mathematics": {
-    "farbe": "f94144",
+    "farbe": "#F94144",
     "kurse": [
       {
         "name": "Analysis I",
@@ -17,7 +17,7 @@
     ]
   },
   "Informatics": {
-    "farbe": "#9b59b6",
+    "farbe": "#F3722C",
     "kurse": [
       {
         "name": "Praktische Informatik I",
@@ -50,7 +50,7 @@
     ]
   },
   "Medicine/Biology": {
-    "farbe": "#e67e22",
+    "farbe": "#F8961E",
     "kurse": [
       {
         "name": "Humanbiologie I",
@@ -79,7 +79,7 @@
     ]
   },
   "Bioinformatics": {
-    "farbe": "#2ecc71",
+    "farbe": "#F9C74F",
     "kurse": [
       {
         "name": "Grundlagen Bioinformatik",
@@ -96,7 +96,7 @@
     ]
   },
   "Physics": {
-    "farbe": "#f1c40f",
+    "farbe": "#90BE6D",
     "kurse": [
       {
         "name": "Experimentalphysik I",
@@ -109,7 +109,7 @@
     ]
   },
   "Medicalinformatics": {
-    "farbe": "#28a745",  
+    "farbe": "#43AA8B",  
     "kurse": [
       {
         "name": "Grundlagen der Medizininformatik",
@@ -138,7 +138,7 @@
     ]
   },
   "Cross-Disciplinary Skills": {
-    "farbe": "#95a5a6",
+    "farbe": "#577590",
     "kurse": [
       {
         "name": "Geschichte und Ethik der Medizin",
