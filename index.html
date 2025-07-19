@@ -48,8 +48,33 @@
       padding-bottom: 0.3em;
       margin-bottom: 1em;
     }
-    #kontakt {
-  text-align: left;
+    .kontakt-container {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  margin-top: 1em;
+}
+
+.profilbild {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%; /* macht es rund */
+  border: 2px solid #ccc;
+}
+
+.kontakt-details p {
+  margin: 0.3em 0;
+  font-size: 1em;
+}
+
+.kontakt-details a {
+  color: #2c3e50;
+  text-decoration: none;
+}
+
+.kontakt-details a:hover {
+  text-decoration: underline;
 }
   </style>
 </head>
@@ -58,11 +83,16 @@
   <canvas id="studyChart"></canvas>
 
   <section id="kontakt">
-    <h2>Kontakt</h2>
-    <p>E-Mail: <a href="mailto:amelie.kannewitz@gmail.com">amelie.kannewitz@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/QubitCube65" target="_blank">QubitCube65</a></p>
-    <p>LinkedIn: <a href="#" target="_blank">[www.linkedin.com/in/amelie-kannewitz-b48610341]</a></p>
-  </section>
+  <h2>Kontakt</h2>
+  <div class="kontakt-container">
+    <img src="profil.jpg" alt="Profilbild" class="profilbild">
+    <div class="kontakt-details">
+      <p>📧 E-Mail: <a href="mailto:amelie.kannewitz@gmail.com">amelie.kannewitz@gmail.com</a></p>
+      <p>💻 GitHub: <a href="https://github.com/QubitCube65" target="_blank">QubitCube65</a></p>
+      <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/amelie-kannewitz-b48610341" target="_blank">amelie-kannewitz</a></p>
+    </div>
+  </div>
+</section>
 
   <footer>
     &copy; 2025 Amelie Kannewitz
