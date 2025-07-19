@@ -36,11 +36,11 @@
         "ects": 6
       },
       {
-        "name": "User Experience",
+        "name": "Realtime und On Demand Medien im Internet",
         "ects": 6
       },
       {
-        "name": "Realtime und On Demand Medien im Internet",
+        "name": "User Experience",
         "ects": 6
       },
       {
@@ -52,6 +52,10 @@
   "Medicine/Biology": {
     "farbe": "#f8961e",
     "kurse": [
+      {
+        "name": "Medizinische Terminologie",
+        "ects": 3
+      },
       {
         "name": "Humanbiologie I",
         "ects": 3
@@ -69,10 +73,6 @@
         "ects": 6
       },
       {
-        "name": "Medizinische Terminologie",
-        "ects": 3
-      },
-      {
         "name": "Einführung in die klinische Neurowissenschaft I + II",
         "ects": 6
       }
@@ -82,12 +82,12 @@
     "farbe": "#f9c74f",
     "kurse": [
       {
-        "name": "Grundlagen Bioinformatik",
-        "ects": 9
-      },
-      {
         "name": "Einführung in die Bioinformatik",
         "ects": 3
+      },
+      {
+        "name": "Grundlagen Bioinformatik",
+        "ects": 9
       },
       {
         "name": "WP Bioinformatik",
