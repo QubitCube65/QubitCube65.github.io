@@ -1,6 +1,6 @@
 {
   "Mathematics": {
-    "farbe": "#F94144",
+    "farbe": "#f94144",
     "kurse": [
       {
         "name": "Analysis I",
@@ -17,7 +17,7 @@
     ]
   },
   "Informatics": {
-    "farbe": "#F3722C",
+    "farbe": "#f3722c",
     "kurse": [
       {
         "name": "Praktische Informatik I",
@@ -50,7 +50,7 @@
     ]
   },
   "Medicine/Biology": {
-    "farbe": "#F8961E",
+    "farbe": "#f8961e",
     "kurse": [
       {
         "name": "Humanbiologie I",
@@ -79,7 +79,7 @@
     ]
   },
   "Bioinformatics": {
-    "farbe": "#F9C74F",
+    "farbe": "#f9c74f",
     "kurse": [
       {
         "name": "Grundlagen Bioinformatik",
@@ -96,7 +96,7 @@
     ]
   },
   "Physics": {
-    "farbe": "#90BE6D",
+    "farbe": "#90be6d",
     "kurse": [
       {
         "name": "Experimentalphysik I",
@@ -109,7 +109,7 @@
     ]
   },
   "Medicalinformatics": {
-    "farbe": "#43AA8B",  
+    "farbe": "#43aa8b",  
     "kurse": [
       {
         "name": "Grundlagen der Medizininformatik",
