@@ -49,32 +49,32 @@
       }
     ]
   },
-  "Medicine/Biology": {
-    "farbe": "#f8961e",
+  "Medicalinformatics": {
+    "farbe": "#f8961e",  
     "kurse": [
       {
-        "name": "Medizinische Terminologie",
+        "name": "Grundlagen der Medizininformatik",
+        "ects": 6
+      },
+      {
+        "name": "Medizinische Visualisierung",
+        "ects": 6
+      },
+      {
+        "name": "Telemedizin",
+        "ects": 6
+      },
+      {
+        "name": "Proseminar Medizininformatik",
         "ects": 3
       },
       {
-        "name": "Humanbiologie I",
-        "ects": 3
-      },
-      {
-        "name": "Humanbiologie II",
+        "name": "WP Medizininformatik",
         "ects": 6
       },
       {
-        "name": "Humanbiologie III",
-        "ects": 6
-      },
-      {
-        "name": "Humanbiologie IV",
-        "ects": 6
-      },
-      {
-        "name": "Einführung in die klinische Neurowissenschaft I + II",
-        "ects": 6
+        "name": "Bachelorarbeit",
+        "ects": 15
       }
     ]
   },
@@ -108,32 +108,32 @@
       }
     ]
   },
-  "Medicalinformatics": {
-    "farbe": "#43aa8b",  
+   "Medicine/Biology": {
+    "farbe": "#43aa8b",
     "kurse": [
       {
-        "name": "Grundlagen der Medizininformatik",
-        "ects": 6
-      },
-      {
-        "name": "Medizinische Visualisierung",
-        "ects": 6
-      },
-      {
-        "name": "Telemedizin",
-        "ects": 6
-      },
-      {
-        "name": "Proseminar Medizininformatik",
+        "name": "Medizinische Terminologie",
         "ects": 3
       },
       {
-        "name": "WP Medizininformatik",
+        "name": "Humanbiologie I",
+        "ects": 3
+      },
+      {
+        "name": "Humanbiologie II",
         "ects": 6
       },
       {
-        "name": "Bachelorarbeit",
-        "ects": 15
+        "name": "Humanbiologie III",
+        "ects": 6
+      },
+      {
+        "name": "Humanbiologie IV",
+        "ects": 6
+      },
+      {
+        "name": "Einführung in die klinische Neurowissenschaft I + II",
+        "ects": 6
       }
     ]
   },
