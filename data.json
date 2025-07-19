@@ -32,7 +32,7 @@
         "ects": 6
       },
       {
-        "name": "Einführung in die Internettechnologien",
+        "name": "Einführung Internettechnologien",
         "ects": 6
       },
       {
@@ -82,7 +82,7 @@
     "farbe": "#f9c74f",
     "kurse": [
       {
-        "name": "Einführung in die Bioinformatik",
+        "name": "Einführung Bioinformatik",
         "ects": 3
       },
       {
@@ -132,11 +132,11 @@
         "ects": 6
       },
       {
-        "name": "Einführung in die klinische Neurowissenschaft I",
+        "name": "Einführung klinische Neurowissenschaft I",
         "ects": 3
       },
       {
-        "name": "Einführung in die klinische Neurowissenschaft II",
+        "name": "Einführung klinische Neurowissenschaft II",
         "ects": 3
       }
     ]
