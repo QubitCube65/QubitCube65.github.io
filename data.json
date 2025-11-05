@@ -69,8 +69,8 @@
         "ects": 3
       },
       {
-        "name": "WP Medizininformatik",
-        "ects": 6
+        "name": "Grundlagen Medizinische Bildgebung",
+        "ects": 3
       },
       {
         "name": "Bachelorarbeit",
@@ -90,8 +90,8 @@
         "ects": 9
       },
       {
-        "name": "WP Bioinformatik",
-        "ects": 3
+        "name": "Biomedical Data Literacy",
+        "ects": 6
       }
     ]
   },
