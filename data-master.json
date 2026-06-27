@@ -1,0 +1,42 @@
+{
+  "Research Project": {
+    "kurse": [
+      { "name": "offen", "ects": 9, "farbe": "#9aa6d4" }
+    ]
+  },
+  "Advanced Bioinformatics": {
+    "kurse": [
+      { "name": "offen", "ects": 9, "farbe": "#90b8e0" }
+    ]
+  },
+  "Advanced Medical Informatics": {
+    "kurse": [
+      { "name": "Advanced Medical Informatics", "ects": 9, "farbe": "#1ba1e2" }
+    ]
+  },
+  "Medical Technology": {
+    "kurse": [
+      { "name": "Biorobotics Lecture", "ects": 3, "farbe": "#2ca05a" },
+      { "name": "Biorobotics Seminar", "ects": 3, "farbe": "#2ca05a" },
+      { "name": "offen", "ects": 12, "farbe": "#a8d8bd" }
+    ]
+  },
+  "Advanced Informatics": {
+    "kurse": [
+      { "name": "Cognitive Modeling", "ects": 6, "farbe": "#8cc63f" },
+      { "name": "Psychophysical Methods", "ects": 3, "farbe": "#8cc63f" },
+      { "name": "offen", "ects": 9, "farbe": "#cfe8a3" }
+    ]
+  },
+  "Biomedical Informatics": {
+    "kurse": [
+      { "name": "Advanced Java for Bioinformatics", "ects": 6, "farbe": "#2e7d32" },
+      { "name": "offen", "ects": 21, "farbe": "#a5d6a7" }
+    ]
+  },
+  "Thesis": {
+    "kurse": [
+      { "name": "Master Thesis", "ects": 30, "farbe": "#f5a300" }
+    ]
+  }
+}
