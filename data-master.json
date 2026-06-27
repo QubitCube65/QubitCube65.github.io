@@ -2,29 +2,25 @@
   "Adv. Medical Informatics": {
     "farbe": "#f94144",
     "kurse": [
-      { "name": "Advanced Medical Informatics", "ects": 9 }
+      { "name": "Advanced Medical Informatics", "ects": 9 },
+      { "name": "Seminar TODO", "ects": 3 }
     ]
   },
   "Research Project": {
-    "farbe": "#f94144",
+    "farbe": "#f3722c",
     "kurse": [
-      { "name": "TODO", "ects": 9 }
-    ]
-  },
-  "Seminar": {
-    "farbe": "#f94144",
-    "kurse": [
-      { "name": "TODO", "ects": 3 }
+      { "name": "Reasearch Project TODO", "ects": 9 }
     ]
   },
   "Thesis": {
-    "farbe": "#f3722c",
+    "farbe": "#f8961e",
     "kurse": [
-      { "name": "TODO", "ects": 30 }
+      { "name": "Master Thesis TODO", "ects": 27 },
+      { "name": "Colloquium TODO", "ects": 3 }
     ]
   },
   "Medical Technology": {
-    "farbe": "##f8961e",
+    "farbe": "#f9c74f",
     "kurse": [
       { "name": "Biorobotics Lecture", "ects": 3 },
       { "name": "Biorobotics Seminar", "ects": 3 },
@@ -32,20 +28,20 @@
     ]
   },
   "Adv. Bioinformatics": {
-    "farbe": "#f9c74f",
+    "farbe": "#90be6d",
     "kurse": [
       { "name": "TODO", "ects": 9 }
     ]
   },
   "Biomedical Informatics": {
-    "farbe": "#90be6d",
+    "farbe": "#43aa8b",
     "kurse": [
       { "name": "Advanced Java for Bioinformatics", "ects": 6 },
       { "name": "TODO", "ects": 18 }
     ]
   },
   "Adv. Informatics": {
-    "farbe": "#90be6d",
+    "farbe": "#577590",
     "kurse": [
       { "name": "Cognitive Modeling", "ects": 6 },
       { "name": "Psychophysical Methods", "ects": 3 },
