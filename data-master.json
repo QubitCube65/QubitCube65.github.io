@@ -1,9 +1,9 @@
 {
-  "Adv. Medical Informatics": {
+  "Thesis": {
     "farbe": "#1a4d8f",
     "kurse": [
-      { "name": "Advanced Medical Informatics", "ects": 9 },
-      { "name": "Seminar TODO", "ects": 3 }
+      { "name": "Master Thesis TODO", "ects": 27 },
+      { "name": "Colloquium TODO", "ects": 3 }
     ]
   },
   "Research Project": {
@@ -12,11 +12,11 @@
       { "name": "Research Project TODO", "ects": 9 }
     ]
   },
-  "Thesis": {
+  "Adv. Medical Informatics": {
     "farbe": "#3fc1c9",
     "kurse": [
-      { "name": "Master Thesis TODO", "ects": 27 },
-      { "name": "Colloquium TODO", "ects": 3 }
+      { "name": "Advanced Medical Informatics", "ects": 9 },
+      { "name": "Seminar TODO", "ects": 3 }
     ]
   },
   "Medical Technology": {
