@@ -5,8 +5,26 @@
       { "name": "Advanced Medical Informatics", "ects": 9 }
     ]
   },
+  "Research Project": {
+    "farbe": "#ffae1e",
+    "kurse": [
+      { "name": "TODO", "ects": 9 }
+    ]
+  },
+  "Thesis": {
+    "farbe": "#ffc245",
+    "kurse": [
+      { "name": "TODO", "ects": 30 }
+    ]
+  },
+  "Seminar": {
+    "farbe": "##ffae1e",
+    "kurse": [
+      { "name": "TODO", "ects": 3 }
+    ]
+  },
   "Medical Technology": {
-    "farbe": "#16357e",
+    "farbe": "#F54927",
     "kurse": [
       { "name": "Biorobotics Lecture", "ects": 3 },
       { "name": "Biorobotics Seminar", "ects": 3 },
@@ -14,7 +32,7 @@
     ]
   },
   "Advanced Informatics": {
-    "farbe": "#061f5c",
+    "farbe": "#16357e",
     "kurse": [
       { "name": "Cognitive Modeling", "ects": 6 },
       { "name": "Psychophysical Methods", "ects": 3 },
@@ -32,24 +50,6 @@
     "farbe": "#8cc63f",
     "kurse": [
       { "name": "TODO", "ects": 9 }
-    ]
-  },
-  "Research Project": {
-    "farbe": "#ffae1e",
-    "kurse": [
-      { "name": "TODO", "ects": 9 }
-    ]
-  },
-  "Thesis": {
-    "farbe": "#ffc245",
-    "kurse": [
-      { "name": "TODO", "ects": 30 }
-    ]
-  },
-  "Seminar": {
-    "farbe": "#ffc245",
-    "kurse": [
-      { "name": "TODO", "ects": 3 }
     ]
   }
 }
