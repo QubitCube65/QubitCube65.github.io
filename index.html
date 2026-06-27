@@ -156,7 +156,8 @@
   </footer>
 
   <script>
-    function buildChart(jsonFile, canvasId) {
+    // Bachelor chart: color per FIELD (original logic)
+    function buildFieldChart(jsonFile, canvasId) {
       fetch(jsonFile)
         .then(res => res.json())
         .then(data => {
@@ -167,7 +168,7 @@
           );
 
           new Chart(document.getElementById(canvasId), {
-            type: 'doughnut', //radar
+            type: 'doughnut',
             data: {
               labels: labels,
               datasets: [{
@@ -197,8 +198,55 @@
         });
     }
 
-    buildChart('data.json', 'studyChart');
-    buildChart('data-master.json', 'studyChartMaster');
+    // Master chart: color per COURSE (each course is its own segment)
+    function buildCourseChart(jsonFile, canvasId) {
+      fetch(jsonFile)
+        .then(res => res.json())
+        .then(data => {
+          const labels = [];   // course names
+          const values = [];   // ects per course
+          const colors = [];   // color per course
+          const fields = [];   // which field each course belongs to (for tooltip)
+
+          Object.keys(data).forEach(bereich => {
+            data[bereich].kurse.forEach(kurs => {
+              labels.push(kurs.name);
+              values.push(kurs.ects);
+              colors.push(kurs.farbe);
+              fields.push(bereich);
+            });
+          });
+
+          new Chart(document.getElementById(canvasId), {
+            type: 'doughnut',
+            data: {
+              labels: labels,
+              datasets: [{
+                data: values,
+                backgroundColor: colors
+              }]
+            },
+            options: {
+              plugins: {
+                tooltip: {
+                  callbacks: {
+                    title: ctx => fields[ctx[0].dataIndex],
+                    label: ctx => `${ctx.label} (${ctx.raw} ECTS)`
+                  }
+                },
+                legend: { display: false },
+                title: {
+                  display: true,
+                  text: 'Courses by ECTS'
+                }
+              }
+            }
+          });
+        });
+    }
+
+    buildFieldChart('data.json', 'studyChart');
+    buildCourseChart('data-master.json', 'studyChartMaster');
   </script>
 </body>
 </html>
