@@ -11,6 +11,11 @@
       padding: 2em;
       background: #f9f9f9;
     }
+    .chart-wrap {
+      max-width: 600px;
+      height: 420px;
+      margin: auto;
+    }
     canvas {
       max-width: 600px;
       margin: auto;
@@ -116,12 +121,12 @@
   
 <section id="studium-master">
   <h2>Medical Informatics M.Sc. - Overview of my studies</h2>
-  <canvas id="studyChartMaster"></canvas>
+  <div class="chart-wrap"><canvas id="studyChartMaster"></canvas></div>
 </section>
 
 <section id="studium-bachelor">
   <h2>Medical Informatics B.Sc. - Overview of my studies</h2>
-  <canvas id="studyChart"></canvas>
+  <div class="chart-wrap"><canvas id="studyChart"></canvas></div>
 </section>
 
 <section id="projekte" style="text-align: left;">
@@ -176,6 +181,8 @@
               }]
             },
             options: {
+              responsive: true,
+              maintainAspectRatio: false,
               plugins: {
                 tooltip: {
                   callbacks: {
